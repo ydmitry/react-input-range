@@ -83,6 +83,7 @@
     "release": "gulp release",
     "start": "gulp run",
     "test": "gulp test",
-    "prepublish": "npm run build:lib"
+    "prepublish": "npm run build:lib",
+    "preinstall": "npm run prepublish"
   }
 }
