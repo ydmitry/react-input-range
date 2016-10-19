@@ -41,7 +41,7 @@ function isWithinRange(inputRange, values) {
   if (inputRange.isMultiValue) {
     return values.min >= props.minValue &&
            values.max <= props.maxValue &&
-           values.min < values.max;
+           values.min <= values.max;
   }
 
   return values.max >= props.minValue &&
